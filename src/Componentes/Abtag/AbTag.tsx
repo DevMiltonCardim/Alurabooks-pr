@@ -14,6 +14,7 @@ const TagEstilizada = styled.div`
   font-weight: 600;
   font-size: 18px;
   font-family: sans-serif;
+  cursor: pointer;
 `
 
 export const AbTag = ({ texto }: TagProps) => {

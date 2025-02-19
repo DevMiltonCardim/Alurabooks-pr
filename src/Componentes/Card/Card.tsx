@@ -64,6 +64,22 @@ const CardEstilizado = styled.section`
   .botao-comprar {
     padding-top: 7vh;
   }
+
+  @media (max-width: 410px) {
+    width: 50vw;
+  }
+
+  @media (max-width: 600px) {
+    width: 60vw;
+
+    .imagensm {
+      width: 23px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    width: 50vw;
+  }
 `
 
 export const Card = ({ children }: CardProps) => {
